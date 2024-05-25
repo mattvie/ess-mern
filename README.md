@@ -44,15 +44,23 @@ Para rodar o servidor Express, execute o seguinte comando:
 nodemon index.js
 ```
 
-### Rotas em Node.js
+## Referências
 
-## Referências e Ferramentas
+### Documentações
   
 - [React](https://react.dev/reference/react)
 - [Node.js](https://nodejs.org/docs/latest/api/)
 - [Express Framework](https://expressjs.com/pt-br/starter/installing.html)
-- [Postman](https://web.postman.co/)
 - [What is `package.json`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+
+### Rotas em Node.js
+
 - [Require vs Import](https://medium.com/@chamin.njay/require-vs-import-in-node-js-abdf5427d7b0)
 - [Express Routes](https://expressjs.com/pt-br/guide/routing.html)
 - [Tutorial on Routes](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
+
+### Ferramentas Utilizadas
+
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Postman](https://web.postman.co/)
+
