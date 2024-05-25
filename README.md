@@ -55,3 +55,4 @@ nodemon index.js
 - [What is `package.json`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
 - [Require vs Import](https://medium.com/@chamin.njay/require-vs-import-in-node-js-abdf5427d7b0)
 - [Express Routes](https://expressjs.com/pt-br/guide/routing.html)
+- [Tutorial on Routes](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
