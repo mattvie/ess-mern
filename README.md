@@ -52,5 +52,6 @@ nodemon index.js
 - [Node.js](https://nodejs.org/docs/latest/api/)
 - [Express Framework](https://expressjs.com/pt-br/starter/installing.html)
 - [Postman](https://web.postman.co/)
-- [`package.json`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+- [What is `package.json`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+- [Require vs Import](https://medium.com/@chamin.njay/require-vs-import-in-node-js-abdf5427d7b0)
 - [Express Routes](https://expressjs.com/pt-br/guide/routing.htmll)
