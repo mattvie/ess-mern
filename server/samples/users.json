@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "fullName": "Mateus Viégas",
+    "username": "mateus",
+    "password": "$2a$10$C0zPbFvhQTGIUjYIMIKp3O/gNa.CQUwPAYRm4zKId9xqrrQAmPp.a",
+    "gender": "M"
+  },
+  {
+    "id": "2",
+    "fullName": "Mateus Farias",
+    "username": "farias",
+    "password": "$2a$10$UnSR5Ly4y2btHoSTRMi8MehAWwN26DJZGhLrn0rQ2gOOaDmf39oDi",
+    "gender": "M"
+  }
+]
