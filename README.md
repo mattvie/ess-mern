@@ -51,7 +51,12 @@ nodemon index.js
 - [React](https://react.dev/reference/react)
 - [Node.js](https://nodejs.org/docs/latest/api/)
 - [Express Framework](https://expressjs.com/pt-br/starter/installing.html)
-- [What is `package.json`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+- [What is package.json](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+- [Mongoose](https://mongoosejs.com/docs/index.html)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 ### Rotas em Node.js
 
