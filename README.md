@@ -60,12 +60,12 @@ nodemon index.js
 
 ### Rotas em Node.js
 
-- [Require vs Import](https://medium.com/@chamin.njay/require-vs-import-in-node-js-abdf5427d7b0)
 - [Express Routes](https://expressjs.com/pt-br/guide/routing.html)
 - [Tutorial on Routes](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 
 ### Ferramentas Utilizadas
 
+- [Require vs Import](https://medium.com/@chamin.njay/require-vs-import-in-node-js-abdf5427d7b0)
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [Postman](https://web.postman.co/)
 
