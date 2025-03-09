@@ -13,9 +13,9 @@ router.get('/:bookId', getBookByIdJson)
 router.post('/', writeBookJson)
 
 // PUT
-router.put('/:bookId', updateBookJson)
+router.put('/', updateBookJson)
 
 // DELETE
-router.delete('/:bookId', deleteBookJson)
+router.delete('/', deleteBookJson)
 
 export default router

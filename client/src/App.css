@@ -1,0 +1,112 @@
+/*
+  .App {}
+  .IndexPage {}
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.App-body {
+  background-color: #051923;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  background-color: #003554;
+  min-height: 20vh;
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav a {
+  padding: 5px;
+}
+
+.App-logo {
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+form {
+  max-width: 400px;
+  margin: 5vh auto;
+}
+
+input,
+button {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+input {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  padding: 5px 7px;
+  border: 2px solid #ddd;
+
+  max-width: 400px;
+}
+
+input[type="color"] {
+  padding: 0;
+}
+
+button {
+  border: 0;
+  padding: 5px;
+
+  color: black;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Align boxes vertically */
+  max-width: fit-content;
+  /* Adjust to your preferred size */
+  max-height: fit-content;
+  /* Adjust to your preferred size */
+  padding: 10px;
+  /* Add padding inside the box */
+}
+
+.content p {
+  margin: 5px;
+}

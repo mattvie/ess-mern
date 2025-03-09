@@ -68,10 +68,10 @@ export const updateBookJson = (req, res) => {
 
         var data = JSON.parse(fs.readFileSync(path.resolve('./samples/books.json'), 'utf-8'))
 
-        data[data.findIndex(element => element.id === req.params.bookId)] = {
+        data[data.findIndex(element => element.id === req.body.id)] = {
             name: req.body.name,
             author: req.body.author,
-            id: req.params.bookId,
+            id: req.body.id,
             description: req.body.description
         }
 
@@ -92,7 +92,7 @@ export const deleteBookJson = (req, res) => {
 
         var data = JSON.parse(fs.readFileSync(path.resolve('./samples/books.json'), 'utf-8'))
 
-        data = data.filter(element => element.id != req.params.bookId)
+        data = data.filter(element => element.id != req.body.id)
 
         // Index Handling
 
