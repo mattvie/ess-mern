@@ -30,6 +30,7 @@ export default function Form({ fields, endpoint, method = "POST" }) {
       {fields.map((field) => (
         <input
           key={field.name}
+          id={field.name}
           type={field.type}
           name={field.name}
           placeholder={field.placeholder}

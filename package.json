@@ -1,0 +1,25 @@
+{
+  "name": "ess-mern",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Noções básicas de como desenvolver um projeto com MongoDB, Node.js/Express e React (MERN). Repositório oferecido na monitoria  de Engenharia de Software e Sistemas (IF682), CIn-UFPE.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "author": "mattvie",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cucumber-html-reporter": "^7.2.0",
+    "cucumber-pretty": "^6.0.1",
+    "cypress": "^14.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "nonGlobalStepDefinitions": true,
+  "stepDefinitions":
+    "cypress/e2e/features/*.js"
+}

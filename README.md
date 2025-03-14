@@ -76,9 +76,9 @@ To create a production build, use npm run build.
 webpack compiled successfully
 ```
 
-### FAQ
+## FAQ
 
-#### Como Instalar Pacotes
+### Como Instalar Pacotes
 
 Para instalar pacotes, utilizamos o comando `npm install` seguido dos nomes dos pacotes desejados:
 
@@ -98,7 +98,7 @@ Caso você tenha clonado um projeto de um repositório já existente (como este!
 npm install
 ```
 
-#### Como Rodar um Servidor Simples
+### Como Rodar um Servidor Simples
 
 Dentro da pasta do seu servidor, crie um arquivo `index.js` e dentro dele escreva:
 
@@ -148,7 +148,7 @@ Com estes passos concluídos, você pode verificar se o código está funcionand
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [Express Routes](https://expressjs.com/pt-br/guide/routing.html)
 - [Tutorial on Routes](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
-- [CORS - Cross-Origin Resource Sharing](https://expressjs.com/en/resources/middleware/cors.html)
+- [Cross-Origin Resource Sharing (CORS)](https://expressjs.com/en/resources/middleware/cors.html)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 ### Outros
