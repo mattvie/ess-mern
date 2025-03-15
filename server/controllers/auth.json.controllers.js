@@ -65,7 +65,7 @@ export const loginJson = async (req, res) => {
         const { username, password } = req.body;
         var data = JSON.parse(fs.readFileSync(path.resolve('./samples/users.json'), 'utf8'))
         var data = data.find(({ username }) => username === req.body.username)
-        const isPasswordCorrect = await bcrypt.compare(password, data.password)
+        const isPasswordCorrect = await bcrypt.compare(password, data?.password || "")
 
         if (!data || !isPasswordCorrect) {
             console.log("Invalid credentials")
