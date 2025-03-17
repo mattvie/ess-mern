@@ -16,10 +16,10 @@ export default function GenericFetch({ endpoint, fields }) {
     }, [endpoint]);
 
     return (
-        <div>
+        <div className="test-class-container">
             {data.length > 0 &&
                 data.map((item) => (
-                    <div key={item.id} className="content">
+                    <div key={item.id} className="content test-class-item">
                         {fields.map((field) => (
                             <p key={field.key}>
                                 <strong>{field.label} </strong>
